@@ -1,0 +1,13 @@
+{
+  "name": "weird-stream-behavior",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "slow": "node src/1-slow-write-slow-read.js",
+    "fast": "node src/2-fast-write-fast-read.js",
+    "both": "npm run slow && npm run fast"
+  },
+  "keywords": [],
+  "author": "Maksym Shenderuk <jaood96@gmail.com>",
+  "license": "MIT"
+}
